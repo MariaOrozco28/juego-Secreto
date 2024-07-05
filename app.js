@@ -59,7 +59,6 @@ function generarNumeroSecreto() {
 function condicionesIniciales(){
     asignarTextoElemento('h1','Juego del número secreto');
     asignarTextoElemento('p',`Indica un numero del 1 al ${numeroMax}`);
-    asignarTextoElemento('y','indica el numero máx a jugar');
     numeroSecreto=generarNumeroSecreto();
     cont=1;
 }
